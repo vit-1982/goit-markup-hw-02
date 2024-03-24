@@ -1,0 +1,159 @@
+:root {
+  --main-color: #757575;
+  --main-bgcolor: #ffffff;
+  --head-color: #212121;
+  --activ-color: #2196f3;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-color);
+  font-weight: 400;
+  background-color: var(--main-bgcolor);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.colored-logo {
+  color: var(--activ-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-menu a {
+  color: var(--head-color);
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.nav-menu a:hover,
+.nav-menu a:focus,
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--activ-color);
+}
+
+.nav-menu .current {
+  color: var(--activ-color);
+}
+
+.contacts a {
+  color: var(--main-color);
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-name {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero-button {
+  background-color: var(--activ-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.adv-name {
+  color: var(--head-color);
+  font-weight: 700;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+.section-name {
+  color: var(--head-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.section-name::first-letter {
+  text-transform: uppercase;
+}
+
+.team-member-pos,
+.team-member-name {
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team-member-name {
+  color: var(--head-color);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.address {
+  font-style: normal;
+  color: #ffffff;
+}
+
+.list-button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: inherit;
+  color: var(--head-color);
+  background-color: #f5f4fa;
+}
+
+.list-button:hover,
+.list-button:focus {
+  background-color: var(--activ-color);
+  color: #ffffff;
+}
+
+.card-name {
+  color: var(--head-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card-descr {
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
